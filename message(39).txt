@@ -356,6 +356,9 @@ end)
 	btns:Button("Bolts HUB", function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/fusiongreg/BoltsHubV5/main/BoltsHubV5"))()
 	end)
+    btns:Button("Bxnks Hub", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/tnSEWPBj"))()
+end)
 
 	local btns = serv:Channel("Anime Adventures", "")
 
@@ -628,6 +631,116 @@ end)
 	btns:Button("Destiny", function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/compwnter/destiny/main/loader'))();
 	end)
+     btns:Button("RyzzChips Hub ", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Ryzzchips/SubtoRyzzchips/main/SubtoRyzzchips"))()
+    end)
+
+     btns:Button("Rainbow Lock Hub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRealXORA/Roblox-Scripts/main/Rainbow%20Sunshine%20Aimlock.lua", true))()
+    end)
+    
+    btns:Button("Q Tool", function()
+    getgenv().keytoclick = "F"
+tool = Instance.new("Tool")
+tool.RequiresHandle = false
+tool.Name = keytoclick
+tool.Activated:connect(function()
+    local vim = game:service("VirtualInputManager")
+vim:SendKeyEvent(true, keytoclick, false, game)
+end)
+tool.Parent = game.Players.LocalPlayer.Backpack
+wait(0.3)
+end)
+
+btns:Button("Blazing Lock Hub", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/d75VfZK1"))()
+    end)
+
+
+
+btns:Button("Fake Macro", function()
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/XiqsUXHj", true))()
+    end)
+
+
+
+btns:Button("Aura X Hub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/k0nkx/Aura-x-skid-ez-remake-by-k0nkx/main/Sigma"))()
+    end)
+
+btns:Button("Blad Lock", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/sdfesdfsedf/srgtergasdfs/main/wwwwwww", true))()
+    end)
+
+btns:Button("Frostbyte Hub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Totocoems/Frostbyte-leaked/main/Frostbyte%20leaked"))()
+    end)
+
+btns:Button("Anti Cheat Bypass", function()
+for _, key in next, getgc(true) do
+
+local function updateKey(instanceType)
+
+if pcall(function() return rawget(key, instanceType) end) and typeof(rawget(key, instanceType)) == 'table' and (rawget(key, instanceType))[1] == 'kick' then
+
+key.tvk = {
+
+'kick',
+
+function()
+
+return game.Workspace:WaitForChild('')
+
+end
+
+}
+
+end
+
+end
+
+updateKey('indexInstance')
+
+updateKey('namecallInstance')
+
+end
+    end)
+    
+    btns:Button("Anti Lock", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/btu1UyEq"))()
+    end)
+    
+    btns:Button("Right Click", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/BalligusapoTT/BalligusapoTT/main/Leftclickballi'))()
+    end)
+    
+    btns:Button("Alysum Hub", function()
+getgenv().AlysumMobile = {
+
+enabled = true, -- // Global Switch
+
+ui = true, -- // Enable UI
+
+button_position = {104,4}, -- // Button Position
+
+legitness = "Blatant", -- // Super Legit (Closest Point), Semi Legit (Closest Part), Normal (Torso), Blatant (Head)
+
+prediction = "1", -- // Prediction version (1,2,3)
+
+notif = true, -- // Notifications
+
+highlight = true, -- // Highlight Target
+
+line = false, -- // Line to target
+
+checks = {true, true, false}, -- // Visible, Knocked, Friend
+
+assist = {false, 0.058}, -- // Enabled, Strength
+
+fov = {false,50} -- // Visible, Size
+
+}
+    end)
 
 
 	local btns = serv:Channel("Demonfall", "")
@@ -1082,122 +1195,6 @@ end)
     loadstring(game:HttpGet('https://raw.githubusercontent.com/Giangplay/Slap_Battles/main/Slap_Battles.lua'))()
     end)
 
-    local btns = serv:Channel("Arsenal", "")
-    btns:Button("Bxnks Hub Arsenal", function()
-loadstring(game:HttpGet("https://pastebin.com/raw/tnSEWPBj"))()
-    end)
-
- local btns = serv:Channel("Da Hood Section 2", "")
-  btns:Button("RyzzChips Hub ", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Ryzzchips/SubtoRyzzchips/main/SubtoRyzzchips"))()
-    end)
-
-     btns:Button("Rainbow Lock Hub", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRealXORA/Roblox-Scripts/main/Rainbow%20Sunshine%20Aimlock.lua", true))()
-    end)
-    
-    btns:Button("Q Tool", function()
-    getgenv().keytoclick = "F"
-tool = Instance.new("Tool")
-tool.RequiresHandle = false
-tool.Name = keytoclick
-tool.Activated:connect(function()
-    local vim = game:service("VirtualInputManager")
-vim:SendKeyEvent(true, keytoclick, false, game)
-end)
-tool.Parent = game.Players.LocalPlayer.Backpack
-wait(0.3)
-end)
-
-btns:Button("Blazing Lock Hub", function()
-loadstring(game:HttpGet("https://pastebin.com/raw/d75VfZK1"))()
-    end)
-
-
-
-btns:Button("Fake Macro", function()
-loadstring(game:HttpGetAsync("https://pastebin.com/raw/XiqsUXHj", true))()
-    end)
-
-
-
-btns:Button("Aura X Hub", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/k0nkx/Aura-x-skid-ez-remake-by-k0nkx/main/Sigma"))()
-    end)
-
-btns:Button("Blad Lock", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/sdfesdfsedf/srgtergasdfs/main/wwwwwww", true))()
-    end)
-
-btns:Button("Frostbyte Hub", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Totocoems/Frostbyte-leaked/main/Frostbyte%20leaked"))()
-    end)
-
-btns:Button("Anti Cheat Bypass", function()
-for _, key in next, getgc(true) do
-
-local function updateKey(instanceType)
-
-if pcall(function() return rawget(key, instanceType) end) and typeof(rawget(key, instanceType)) == 'table' and (rawget(key, instanceType))[1] == 'kick' then
-
-key.tvk = {
-
-'kick',
-
-function()
-
-return game.Workspace:WaitForChild('')
-
-end
-
-}
-
-end
-
-end
-
-updateKey('indexInstance')
-
-updateKey('namecallInstance')
-
-end
-    end)
-    
-    btns:Button("Anti Lock", function()
-loadstring(game:HttpGet("https://pastebin.com/raw/btu1UyEq"))()
-    end)
-    
-    btns:Button("Right Click", function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/BalligusapoTT/BalligusapoTT/main/Leftclickballi'))()
-    end)
-    
-    btns:Button("Alysum Hub", function()
-getgenv().AlysumMobile = {
-
-enabled = true, -- // Global Switch
-
-ui = true, -- // Enable UI
-
-button_position = {104,4}, -- // Button Position
-
-legitness = "Blatant", -- // Super Legit (Closest Point), Semi Legit (Closest Part), Normal (Torso), Blatant (Head)
-
-prediction = "1", -- // Prediction version (1,2,3)
-
-notif = true, -- // Notifications
-
-highlight = true, -- // Highlight Target
-
-line = false, -- // Line to target
-
-checks = {true, true, false}, -- // Visible, Knocked, Friend
-
-assist = {false, 0.058}, -- // Enabled, Strength
-
-fov = {false,50} -- // Visible, Size
-
-}
-    end)
 
     local btns = serv:Channel("Meta Lock", "")
     btns:Button("Blast Hub", function()
@@ -1349,4 +1346,3 @@ Kys:Button("Get Key Link!", function()
 end)
 
 Kys:Label("paste-drophub.com/getkey/")
-
